@@ -1,2 +1,47 @@
-# -bsu-cosc113-spring2026-Maze-Escape-Game
-Maze Escape Game is a Java-based maze adventure game where the player must navigate through a maze and reach the exit before running out of moves. The game uses keyboard controls and a graphical interface built with Java Swing. Players must avoid walls, plan their path carefully, and escape the maze to win.
+# Maze Escape Game
+
+## Description
+Maze Escape Game is a simple Java game created using Java Swing. The player moves through a maze using the arrow keys and must reach the exit before running out of moves.
+
+## Features
+- Graphical game window
+- Arrow key movement
+- Maze walls and pathways
+- Move counter
+- Win and lose conditions
+- Simple and interactive gameplay
+
+## How to Play
+- Use the arrow keys to move the player.
+- Avoid walls.
+- Reach the green exit square before moves run out.
+
+## Controls
+| Key | Action |
+|-----|--------|
+| Up Arrow | Move Up |
+| Down Arrow | Move Down |
+| Left Arrow | Move Left |
+| Right Arrow | Move Right |
+
+## Technologies Used
+- Java
+- Java Swing
+- VS Code
+
+## How to Run
+
+Compile the program:
+
+```bash
+javac MazeEscapeGame.java
+```
+
+Run the game:
+
+```bash
+java MazeEscapeGame
+```
+
+## Author
+Nia Silke Tabe
