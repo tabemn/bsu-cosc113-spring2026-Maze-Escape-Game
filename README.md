@@ -1,12 +1,14 @@
-# Maze Escape Game
+# Maze Escape Game: 4 Pac-Man Chase Mode
 
 ## Description
-Maze Escape Game is a Java Swing adventure game where the player must escape a larger maze filled with walls, traps, coins, a key, and a locked door. The goal is to find the key, unlock the door, avoid losing all health, and reach the exit before running out of moves.
+Maze Escape Game: 4 Pac-Man Chase Mode is a Java Swing adventure game where the player must escape a large maze while being chased by four Pac-Man-style enemies. The game includes traps, coins, a key, a locked door, health, scoring, and a move limit.
 
 ## Features
-- Graphical game window using Java Swing
-- Bigger maze layout
+- Large graphical maze
+- Java Swing game window
 - Arrow key movement
+- Four Pac-Man-style enemies
+- Enemies follow the player
 - Walls that block movement
 - Traps that reduce health
 - Coins that increase score
@@ -18,12 +20,13 @@ Maze Escape Game is a Java Swing adventure game where the player must escape a l
 - Win and lose conditions
 
 ## How to Play
-Use the arrow keys to move the player through the maze. Avoid traps, collect coins, find the key, unlock the door, and reach the green exit square.
+Use the arrow keys to move through the maze. Collect coins to increase your score, find the key, unlock the locked door, and reach the green exit square. Avoid traps and do not let any of the four Pac-Man enemies catch you.
 
 ## Game Symbols
-| Symbol | Meaning |
-|--------|---------|
+| Symbol / Color | Meaning |
+|---|---|
 | Blue Circle | Player |
+| Yellow Pac-Man Shapes | Enemies |
 | Dark Gray Square | Wall |
 | Green Square | Exit |
 | Red Square / ! | Trap |
@@ -33,7 +36,7 @@ Use the arrow keys to move the player through the maze. Avoid traps, collect coi
 
 ## Controls
 | Key | Action |
-|-----|--------|
+|---|---|
 | Up Arrow | Move Up |
 | Down Arrow | Move Down |
 | Left Arrow | Move Left |
